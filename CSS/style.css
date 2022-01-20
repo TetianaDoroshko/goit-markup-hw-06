@@ -613,6 +613,9 @@ ul {
   border: 2px solid var(--accent-color);
   background-color: var(--accent-color);
 }
+.checkbox:focus + .icon-check {
+  box-shadow: 0 0 0 1px var(--accent-color);
+}
 .agreement-link {
   color: var(--accent-color);
 }
