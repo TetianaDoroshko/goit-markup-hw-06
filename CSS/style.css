@@ -533,6 +533,7 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--bgd-light);
+  cursor: pointer;
   transition: background-color var(--tr-duration) var(--tr-function),
     fill var(--tr-duration) var(--tr-function);
 }
@@ -583,6 +584,7 @@ ul {
 .modal .area {
   height: 120px;
   padding: 12px 16px;
+  resize: none;
 }
 .modal .area::placeholder {
   font-size: 12px;
@@ -610,13 +612,13 @@ ul {
   margin-right: 6px;
   width: 16px;
   height: 15px;
-  border: 3px solid var(--title-color);
+  border: 2px solid var(--title-color);
   border-radius: 4px;
   transition: border var(--tr-duration) var(--tr-function),
     background-color var(--tr-duration) var(--tr-function);
 }
 .checkbox:checked + .icon-check {
-  border: 3px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
   background-color: var(--accent-color);
 }
 .checkbox:focus + .icon-check {
